@@ -14,13 +14,21 @@
     border: 0px;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
 /* nav releted styles */
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 230px;
+    padding: 0 200px;
 }
 
 nav>ul {
@@ -68,9 +76,18 @@ a {
 
 .banner {
     display: flex;
-    padding: 30px 0px 0px 230px;
+    padding: 30px 0px 0px 200px;
     align-items: center;
+    justify-content: space-between;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
+}
+
+/* .side-pic{} */
+.banner-content {
+    /* max-width: 500px; */
 }
 
 .banner-title {
@@ -78,6 +95,7 @@ a {
     font-weight: 600;
 
 }
+
 .banner-btn1 {
     width: 200px;
     height: 64px;
@@ -104,4 +122,33 @@ a {
 
     width: 580px;
     height: 650px;
+}
+/* main section items */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* About section releted items */
+
+.AboutMe {
+    /* width: 1140px; */
+    height: 350px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top: 120px;
+    padding: 130px 100px 130px 100px;
+}
+.aboutme-descrip{
+    /* width: 800px; */
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    margin-right: 60px;
+    margin-top: 30px;
+    text-align: center;
 }
