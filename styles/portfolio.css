@@ -123,8 +123,9 @@ a {
     width: 580px;
     height: 650px;
 }
+
 /* main section items */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 
@@ -138,17 +139,50 @@ main{
     border-radius: 10px;
     background: #FFF8F3;
     margin-top: 120px;
+    margin-bottom: 120px;
     padding: 130px 100px 130px 100px;
 }
-.aboutme-descrip{
+
+.aboutme-descrip {
     /* width: 800px; */
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     margin-right: 60px;
     margin-top: 30px;
     text-align: center;
+}
+
+/* what i do section */
+
+.whatiDo-content {
+    text-align: center;
+    padding: 30px 150px;
+}
+
+/* Skills section */
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills {
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
+}
+.skill-title{
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 100px 50px 20px 30px;
+}
+.skill-description{
+    padding:0px 30px 30px 30px;
 }
