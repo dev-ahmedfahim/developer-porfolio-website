@@ -169,20 +169,49 @@ main {
 .skills-container {
     display: flex;
     justify-content: space-around;
+    gap: 24px;
 }
 
 .skills {
+    padding: 30px;
     width: 267px;
     height: 377px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
 }
-.skill-title{
+
+.skill-title {
     font-weight: 700;
-    margin-bottom: 20px;
-    padding: 100px 50px 20px 30px;
+    margin-bottom: 30px;
 }
-.skill-description{
-    padding:0px 30px 30px 30px;
+
+.skill-description {}
+
+/* resume items */
+.resume-container {
+    margin-top: 130px;
+    margin-bottom: 113px;
+}
+
+.edu-exp-container {
+    display: flex;
+    justify-content: space-around;
+}
+.edu-main-title{
+    color:#474747;
+font-size: 30px;
+font-weight: 700;
+}
+.edu-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.edu-duration {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+
 }
